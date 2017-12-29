@@ -9,6 +9,7 @@ def install_spark():
     sudo('mkdir /usr/local/spark')
     sudo('cp -r /tmp/spark-2.0.0-bin-hadoop2.7/* /usr/local/spark')
 
+@task
 def setup_spark():
     append('~/.bash_profile',
            'SPARK_EXAMPLES_JAR=/usr/local/spark/examples/jars/spark-examples_2.11-2.0.0.jar',

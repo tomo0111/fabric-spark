@@ -10,5 +10,6 @@ def install_scala():
     sudo('ln -s /usr/lib/scala-2.10.1 /usr/lib/scala')
     sudo('export PATH=$PATH:/usr/lib/scala/bin')
 
+@task
 def setup_scala():
     append('~/.bash_profile', 'PATH=$PATH:/usr/lib/scala/bin', use_sudo=True)

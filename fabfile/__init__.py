@@ -1,3 +1,4 @@
+import install_scala
 import install_java
-import install_cassandra
-import setup_cassandra
+import install_wget
+import install_spark
