@@ -1,4 +1,4 @@
-import install_scala
-import install_java
-import install_wget
-import install_spark
+import scala
+import java
+import wget
+import spark
