@@ -17,30 +17,30 @@ Available commands:
 # Single node environment
 Install Java
 ```
-$ fab cassandra.install_java
+$ fab java.install_java
 ```
 
 Install Scala
 ```
-$ fab cassandra.install_scala
+$ fab scala.install_scala
 ```
 
 Install wget
 ```
-$ fab cassandra.install_wget
+$ fab wget.install_wget
 ```
 
 Setup scala
 ```
-$ fab cassandra.setup_scala
+$ fab scala.setup_scala
 ```
 
 Install Spark
 ```
-$ fab cassandra.install_spark
+$ fab spark.install_spark
 ```
 
 Setup Spark
 ```
-$ fab cassandra.setup_spark
+$ fab spark.setup_spark
 ```
